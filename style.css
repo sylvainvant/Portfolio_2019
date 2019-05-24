@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "JAGUAR";
+	src: url("./font/JAGUAR.woff") format("woff");
+}
+
+html, body {
+	font-family: "JAGUAR";
+	font-size: 20px;
+}
+
+p {
+	font-size: 2em;
+}
+
+h1 {
+  text-align: center;
+
+}
