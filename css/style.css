@@ -3,9 +3,16 @@
 	src: url("./../font/JAGUAR.woff") format("woff");
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html, body {
 	font-family: "JAGUAR";
 	font-size: 1.3em;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -15,8 +22,54 @@ p {
 h1 {
   text-align: center;
   font-size: 3em;
+  padding: 10px;
 }
 
 h2 {
   font-size: 2.3em;
+  padding: 20px;
 }
+
+nav {
+  width: 100%;
+  background-color: #424558;
+}
+
+/*Enlever les puces deavnt les éléments li*/
+  nav li {
+    list-style-type: none;
+  }
+
+/* Onglets de menu cote à cote*/
+  nav > ul > li {
+    float: left;
+    position: relative;
+  }
+
+/* Rendre notre case à cocher invisible*/
+  nav input[type=checkbox] {
+    display: none;
+  }
+
+  nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  nav > ul > li > a {
+    padding: 20px 30px;
+    color: #fff;
+  }
+
+/* cacher le bouton affichant le menu mobile*/
+.menu-mobile {
+  display: none;
+}
+
+
