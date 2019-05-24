@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "JAGUAR";
-	src: url("./font/JAGUAR.woff") format("woff");
+	src: url("./../font/JAGUAR.woff") format("woff");
 }
 
 html, body {
