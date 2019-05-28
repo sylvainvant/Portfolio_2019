@@ -2,34 +2,47 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <title></title>
 </head>
 <body>
-  <nav role="navigation">
+  <div class="container-header">
+  <nav role="navigation" id="navigation" class="header">
+    <a href="#nom" class="logo">Sylvain VANTIEGHEM</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+    <!--
     <label for="menu-mobile" class="menu-mobile">Menu</label>
     <input type="checkbox" id="menu-mobile" role="button">
-    <ul>
+  -->
+  <ul class="menu">
+      <!--
       <li class="menu-nom">
         <a href="#nom">Sylvain VANTIEGHEM</a>
       </li>
-      <li class="menu-competances">
-        <a href="#competances">Compétences</a>
-      </li>
-      <li class="menu-about">
-        <a href="#about">About</a>
-      </li>
-      <li class="menu-realisation">
-        <a href="#realisation">Réalisations</a>
-      </li>
-      <li class="menu-contact">
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <br />
-  <h1>DEVELOPPEUR WEB JUNIOR</h1>
+    -->
+    <li class="menu-competances">
+      <a href="#competances">Compétences</a>
+    </li>
+    <li class="menu-about">
+      <a href="#about">About</a>
+    </li>
+    <li class="menu-realisation">
+      <a href="#realisation">Réalisations</a>
+    </li>
+    <li class="menu-contact">
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+</div>
+<br /><br /><br />
 
+<h1>DEVELOPPEUR WEB JUNIOR</h1>
+<div class="container">
   <h2 id="nom">UN TEST DE TITRE</h2>
 
   <p>
@@ -42,7 +55,7 @@
     Sit nesciunt ducimus non quisquam modi quos. Laboriosam consectetur nesciunt provident iure minus Ipsa laudantium odit neque sint maxime. Consequuntur commodi laborum illo deserunt cumque? Velit quae asperiores accusamus aperiam
   </p>
 
-  <h2 id="About">About</h2>
+  <h2 id="about">About</h2>
 
   <p>
     Sit nesciunt ducimus non quisquam modi quos. Laboriosam consectetur nesciunt provident iure minus Ipsa laudantium odit neque sint maxime. Consequuntur commodi laborum illo deserunt cumque? Velit quae asperiores accusamus aperiam
@@ -59,6 +72,6 @@
   <p>
     Sit nesciunt ducimus non quisquam modi quos. Laboriosam consectetur nesciunt provident iure minus Ipsa laudantium odit neque sint maxime. Consequuntur commodi laborum illo deserunt cumque? Velit quae asperiores accusamus aperiam
   </p>
-
+</div>
 </body>
 </html>

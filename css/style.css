@@ -13,10 +13,13 @@ html, body {
 	font-size: 1.3em;
   margin: 0;
   padding: 0;
+
 }
 
 p {
-	font-size: 1.3em;
+	font-size: 1.1em;
+  padding-left: 20px;
+  font-family: "verdana";
 }
 
 h1 {
@@ -31,45 +34,183 @@ h2 {
 }
 
 nav {
-  width: 100%;
-  background-color: #424558;
+  background-color: #303030 ;
+}
+nav  a {
+  color: #fff;
+  background-color: #303030 ;
 }
 
-/*Enlever les puces deavnt les éléments li*/
-  nav li {
-    list-style-type: none;
-  }
+.container {
+  margin-top: 40px;
+}
 
-/* Onglets de menu cote à cote*/
-  nav > ul > li {
+/*Lorsque l’élément est survolé*/
+.menu-nom:hover {
+  border-top: 5px solid #e44d26;
+  background-color: rgba(0, 191, 255, 0.15);
+
+}
+
+.menu-competances:hover {
+  border-top: 5px solid #e44d26;
+  background-color:  rgba(0, 191, 255, 0.15);
+  color: #000;
+}
+
+.menu-about:hover {
+  border-top: 5px solid #e44d26;
+  background-color:  rgba(0, 191, 255, 0.15);
+}
+
+.menu-realisation:hover {
+  border-top: 5px solid #e44d26;
+  background-color:  rgba(0, 191, 255, 0.15);
+}
+
+.menu-contact:hover {
+  border-top: 5px solid #e44d26;
+  background-color:  rgba(0, 191, 255, 0.15);
+}
+
+
+/*   test menu
+/* header */
+
+
+.header {
+  background-color: #303030;
+  /*box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);*/
+  /*position: fixed;*/
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*overflow: hidden;*/
+  background-color: #303030;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.header .logo {
+  /*display: block;*/
+  /*float: left;*/
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #303030;
+  color: #fff;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  background-color: #303030;
+  color: #fff;
+
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  /*background: #333;*/
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  /*background: #333;*/
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 3000px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+/* On modifie le style du menu pour son affichage responsive */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
     float: left;
-    position: relative;
   }
-
-/* Rendre notre case à cocher invisible*/
-  nav input[type=checkbox] {
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
     display: none;
   }
-
-  nav > ul::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  nav a {
-    display: inline-block;
-    text-decoration: none;
-  }
-
-  nav > ul > li > a {
-    padding: 20px 30px;
-    color: #fff;
-  }
-
-/* cacher le bouton affichant le menu mobile*/
-.menu-mobile {
-  display: none;
 }
-
-
