@@ -74,7 +74,7 @@ nav  a {
 }
 
 
-/*   test menu
+/*  menu */
 /* header */
 
 
@@ -84,6 +84,7 @@ nav  a {
   /*position: fixed;*/
   width: 100%;
   z-index: 3;
+  padding: 10px 20px;
 }
 
 .header ul {
@@ -125,7 +126,6 @@ nav  a {
   transition: max-height .2s ease-out;
   background-color: #303030;
   color: #fff;
-
 }
 
 /* menu icon */
