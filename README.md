@@ -1,6 +1,6 @@
-# Portofolio_2019
+# Portfolio_2019
 
-## Introduction - l'objectif du projet
+## Introduction - l' objectif du projet
 Mon site Web personnels pour montrer mes projets, puis à les afficher au monde entier.
 
 ## Les technologies
