@@ -269,11 +269,83 @@ nav  a {
 /**
 *   partie compétances
 */
-  .container_competance {
+
+.competance{
+  align-items: center;
+  position: relative;
+  left: 30%;
+}
+
+.container_competance {
+  margin-top: 25px;
+  padding-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  color: #5D6062;
+}
+
+.text-competance-left{
+  width: 25%;
+  /* background-color: pink; */
+  padding: 15px;
+  text-align: center;
+}
+
+.text-competance-center{
+  width: 25%;
+  /* background-color: yellow; */
+  padding: 15px;
+  text-align: center;    
+}
+
+.text-competance-center2{
+  width: 25%;
+  /* background-color: yellow; */
+  padding: 15px;
+  text-align: center;   
+}
+
+.text-competance-right{
+  width: 25%;
+  /* background-color: purple; */
+  padding: 15px;
+  text-align: center; 
+}
+  
+.fa-3x{
+  text-align: center;
+  display: block;
+}
+
+.fa-html5 { color: #F16529; }
+.fa-css3 { color: #379AD6; }
+.fa-php { color: #566DA8; }
+.fa-js { color: #F8DC3D;}
+.fa-symfony { color: #000000; }
+.fa-bootstrap { color: #673AB7; }
+.fa-sass { color: #CC6699; }
+.fa-git-square {color: #F05133; }
+.fa-github { color: #000000; }
+.fa-linux {color: #000000;}
+
+/**
+*   partie realisation
+*/
+  .container_realisation {
     margin-top: 25px;
     padding-top: 10px;
     display: inline-flex;
   }
+
+
+/**
+* Partie Contact
+*/
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+}
 
   img{
     background-color: red;
