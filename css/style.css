@@ -272,14 +272,13 @@ nav  a {
 
 .competance{
   align-items: center;
-  position: relative;
-  left: 30%;
+  position: relative; 
 }
 
 .container_competance {
   margin-top: 25px;
   padding-top: 10px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   color: #5D6062;
 }
@@ -342,14 +341,25 @@ nav  a {
 * Partie Contact
 */
 
-  .contact-container {
+.container_contact {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-size: 1.3em;
+  padding-left: 20px;
+  font-family: "verdana";
+}
+
+/**
+* Partie Réalisations
+*/
+
+.container_realisation {
     display: flex;
     justify-content: center;
 }
-
-  img{
-    background-color: red;
-  }
 
   .text-left{
     width: 33%;
@@ -370,9 +380,27 @@ nav  a {
     padding: 15px;
     text-align: center; 
   }
+
+
+  /**
+  * footer
+  */
+
+.container_footer {
+  background-color: lightgrey;
   
-  .fa-home{
-    text-align: center;
-    display: block;
-    color: red;
-  }
+  padding-top: 10px;
+  display: flex;
+}
+
+.footer {
+  background-color: lightgrey;
+}
+
+
+.fa-linkedin{ color: #0092BD; }
+.fa-twitter { color: #1DA1F2; }
+
+
+  
+ 
