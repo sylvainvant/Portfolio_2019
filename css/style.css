@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-size: 2.3em;
-  padding: 20px;
+  padding: 25px;
 }
 
 nav {
@@ -43,7 +43,13 @@ nav  a {
 
 .container {
   margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
+/**
+* menu header
+*/
 
 /*Lorsque l’élément est survolé*/
 .menu-nom:hover {
@@ -72,10 +78,6 @@ nav  a {
   border-top: 5px solid #e44d26;
   background-color:  rgba(0, 191, 255, 0.15);
 }
-
-
-/*  menu */
-/* header */
 
 
 .header {
@@ -214,3 +216,91 @@ nav  a {
     display: none;
   }
 }
+
+/**
+* partie about
+*/
+.container_about {
+  margin-top: 25px;
+  padding-top: 10px;
+  display: inline-flex;
+}
+
+.text-about-left{
+  display: flex;
+  background-color: pink;
+  width: 35%;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid red;
+  background-color: lightgrey;
+}
+
+.text-about-right{
+  width: 65%;
+  background-color: lightgrey;
+
+  padding: 15px;
+  text-align: center; 
+}
+
+.photo_of_me {
+  border: 2px solid #CE9E62;
+  border-radius: 8px;
+}
+
+.telecharger {
+  position:relative;
+  left:35%;
+
+}
+
+.button-telecharger {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/**
+*   partie compétances
+*/
+  .container_competance {
+    margin-top: 25px;
+    padding-top: 10px;
+    display: inline-flex;
+  }
+
+  img{
+    background-color: red;
+  }
+
+  .text-left{
+    width: 33%;
+    /* background-color: pink; */
+    padding: 15px;
+    text-align: center;
+  }
+  .text-center{
+    width: 33%;
+    /* background-color: yellow; */
+    padding: 15px;
+    text-align: center;
+    
+  }
+  .text-right{
+    width: 33%;
+    /* background-color: purple; */
+    padding: 15px;
+    text-align: center; 
+  }
+  
+  .fa-home{
+    text-align: center;
+    display: block;
+    color: red;
+  }
