@@ -234,6 +234,7 @@ nav  a {
   background-image: url("./../img/header.jpg");
   background-color: transparent;
   height: 90vh;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
