@@ -199,21 +199,26 @@ nav  a {
 
 @media (min-width: 48em) {
 
-
   .header li {
     float: left;
   }
+
   .header li a {
     padding: 20px 30px;
   }
+
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
+
+
+
 }
 
 
@@ -264,10 +269,11 @@ nav  a {
   border-radius: 8px;
 }
 
-.telecharger {
-  position:relative;
-  left:35%;
-}
+ .telecharger {
+   float: right;
+  /* position:relative;
+  left:35%; */
+} 
 
 .button-telecharger {
   background-color: #008CBA; /* Blue */
@@ -327,10 +333,9 @@ nav  a {
   /* padding: 15px; */
   text-align: center; 
 }
-  
-.fa-3x{
+
+p, .autre {
   text-align: center;
-  display: block;
 }
 
 
