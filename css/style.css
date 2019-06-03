@@ -14,6 +14,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x:hidden;
+  background-color: lightgrey;
 }
 
 p {
@@ -35,12 +36,10 @@ h2 {
   padding: 25px;
 }
 
-nav {
-  background-color: #303030 ;
-}
 nav  a {
   color: #fff;
   background-color: #303030 ;
+  background-color: #008CBA;   
 }
 
 .container {
@@ -63,13 +62,11 @@ nav  a {
 .menu-nom:hover {
   border-top: 5px solid #e44d26;
   background-color: rgba(0, 191, 255, 0.15);
-
 }
 
 .menu-competances:hover {
   border-top: 5px solid #e44d26;
   background-color:  rgba(0, 191, 255, 0.15);
-  color: #000;
 }
 
 .menu-about:hover {
@@ -89,10 +86,10 @@ nav  a {
 
 
 .header {
-  background-color: #303030;
-  /*position: fixed;*/
+  background-color: #008CBA; 
+  position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 3; 
   padding: 14px 20px;
 }
 
@@ -100,13 +97,12 @@ nav  a {
   margin: 0;
   padding: 0;
   list-style: none;
-  /*overflow: hidden;*/
-  background-color: #303030;
+  /* overflow: hidden; */
 }
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 20px 20px; 
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
@@ -118,12 +114,9 @@ nav  a {
 }
 
 .header .logo {
-  /*display: block;*/
-  /*float: left;*/
   font-size: 2em;
-  padding: 10px 20px;
   text-decoration: none;
-  background-color: #303030;
+  background-color: #008CBA;   
   color: #fff;
 }
 
@@ -133,8 +126,6 @@ nav  a {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
-  background-color: #303030;
-  color: #fff;
 }
 
 /* menu icon */
@@ -151,10 +142,10 @@ nav  a {
 .header .menu-icon .navicon {
   /*background: #333;*/
   display: block;
-  height: 2px;
+  height: 2px; 
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 18px; 
 }
 
 .header .menu-icon .navicon:before,
@@ -180,11 +171,10 @@ nav  a {
 
 .header .menu-btn {
   display: none;
-
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 3000px;
+  max-height: 2000px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -254,19 +244,17 @@ nav  a {
 
 .text-about-left{
   display: flex;
-  background-color: pink;
   width: 35%;
   padding: 15px;
   align-items: center;
   justify-content: center;
   border-right: 1px solid red;
-  background-color: lightgrey;
+  background-color: #f0f0f0;
 }
 
 .text-about-right{
   width: 65%;
-  background-color: lightgrey;
-
+  background-color: #f0f0f0;
   padding: 15px;
   text-align: center; 
 }
@@ -404,17 +392,13 @@ label {
   */
 
 .container_footer {
-  background-color: lightgrey;
+  background-color: #f0f0f0;
   color: #5D6062;
   padding-top: 10px;
   display: flex;
 }
 
-.footer { background-color: lightgrey; }
-
-.fa-linkedin{ color: #0092BD; }
-.fa-twitter { color: #1DA1F2; }
-
+  .footer { background-color: #f0f0f0; }
 
 /**
 *  ancre de retour
@@ -425,7 +409,7 @@ label {
   right: 20px;
 }
 
-.top>a>img {
+.top > a > img {
   width: 50px;
   height: 50px;
 }
