@@ -27,7 +27,7 @@ h1 {
   text-align: center;
   font-size: 3em;
   padding: 10px;
-  color: #FFFFF;
+  color: #ffffff;
 }
 
 h2 {
@@ -233,8 +233,10 @@ nav  a {
 .container_title {
   background-image: url("./../img/header.jpg");
   background-color: transparent;
+  opacity: 0.8;
   height: 90vh;
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 }
@@ -296,42 +298,45 @@ nav  a {
 
 .competance{
   align-items: center;
-  position: relative; 
+  position: relative;
+  text-align: center;
+  justify-content: center;
 }
 
 .container_competance {
-  margin-top: 25px;
-  padding-top: 10px;
+  /* margin-top: 25px; */
+  padding-top: 5px;
   display: flex;
-  align-items: center;
   color: #5D6062;
+  position: relative;
+  justify-content: center;
 }
 
 .text-competance-left{
-  width: 25%;
+  /* width: 25%; */
   /* background-color: pink; */
-  padding: 15px;
+  padding: 0  0 0 20px; 
   text-align: center;
 }
 
 .text-competance-center{
-  width: 25%;
+  /* width: 25%; */
   /* background-color: yellow; */
-  padding: 15px;
+  /* padding: 15px; */
   text-align: center;    
 }
 
 .text-competance-center2{
-  width: 25%;
+  /* width: 25%; */
   /* background-color: yellow; */
-  padding: 15px;
+  /* padding: 15px; */
   text-align: center;   
 }
 
 .text-competance-right{
-  width: 25%;
+  /* width: 25%; */
   /* background-color: purple; */
-  padding: 15px;
+  /* padding: 15px; */
   text-align: center; 
 }
   
@@ -340,16 +345,6 @@ nav  a {
   display: block;
 }
 
-.fa-html5 { color: #F16529; }
-.fa-css3 { color: #379AD6; }
-.fa-php { color: #566DA8; }
-.fa-js { color: #F8DC3D;}
-.fa-symfony { color: #000000; }
-.fa-bootstrap { color: #673AB7; }
-.fa-sass { color: #CC6699; }
-.fa-git-square {color: #F05133; }
-.fa-github { color: #000000; }
-.fa-linux {color: #000000;}
 
 /**
 *   partie realisation
