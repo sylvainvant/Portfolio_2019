@@ -23,9 +23,11 @@ p {
 }
 
 h1 {
+  align-items: center;
   text-align: center;
   font-size: 3em;
   padding: 10px;
+  color: #FFFFF;
 }
 
 h2 {
@@ -88,7 +90,6 @@ nav  a {
 
 .header {
   background-color: #303030;
-  /*box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);*/
   /*position: fixed;*/
   width: 100%;
   z-index: 3;
@@ -207,6 +208,8 @@ nav  a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+
+
   .header li {
     float: left;
   }
@@ -222,6 +225,20 @@ nav  a {
     display: none;
   }
 }
+
+
+/**
+*  partie titre
+*/
+.container_title {
+  background-image: url("../img/header.jpg");
+  background-color: transparent;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 /**
 * partie about
