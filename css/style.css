@@ -231,7 +231,7 @@ nav  a {
 *  partie titre
 */
 .container_title {
-  background-image: url("../img/header.jpg");
+  background-image: url("./../img/header.jpg");
   background-color: transparent;
   height: 90vh;
   justify-content: center;
