@@ -5,8 +5,8 @@ Mon site Web personnels pour montrer mes projets, puis à les afficher au monde 
 
 ## Les technologies
 
-Sass/CSS :
-SCSS est utilisé pour styliser le site Web.
+CSS :
+CSS est utilisé pour styliser le site Web.
 
 JS :
 un JS standard sans bibliothèques.
