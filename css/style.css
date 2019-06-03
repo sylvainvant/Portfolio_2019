@@ -420,5 +420,16 @@ label {
 .fa-twitter { color: #1DA1F2; }
 
 
-  
- 
+/**
+*  ancre de retour
+*/  
+ .top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+.top>a>img {
+  width: 50px;
+  height: 50px;
+}
